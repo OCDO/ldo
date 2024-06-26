@@ -202,16 +202,6 @@
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/cdos/ldo/hasCharacterAngle -->
-
-    <owl:ObjectProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/hasCharacterAngle">
-        <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/MixedDislocation"/>
-        <rdfs:range rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/CharacterAngle"/>
-        <rdfs:label>has character angle</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purls.helmholtz-metadaten.de/cdos/ldo/hasLineDirection -->
 
     <owl:ObjectProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/hasLineDirection">
@@ -260,6 +250,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purls.helmholtz-metadaten.de/cdos/ldo/hasCharacterAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/hasCharacterAngle">
+        <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/MixedDislocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
     
 
 
