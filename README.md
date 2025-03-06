@@ -1,5 +1,9 @@
 # Line Defect Ontology (LDO)
 
+LDO is an ontology designed to describe line defects in crystalline materials, such as dislocations and disclinations. 
+
+* **Documentation**:https://ocdo.github.io/ldo/
+
 ![Schematic representation of LDO](images/LDO.jpg)
 
 ## Acknowledgement
