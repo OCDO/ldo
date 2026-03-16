@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purls.helmholtz-metadaten.de/ldo#"
-     xml:base="http://purls.helmholtz-metadaten.de/ldo"
+<rdf:RDF xmlns="https://purls.helmholtz-metadaten.de/ldo#"
+     xml:base="https://purls.helmholtz-metadaten.de/ldo"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,16 +12,16 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
     <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo">
-        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/1.0.0"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
+        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/0.0.1"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-6776-1213"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
-        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Line Defect Ontology (LDO)</terms:description>
-        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Line Defect Ontology</terms:title>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
+        <terms:description>Line Defect Ontology (LDO)</terms:description>
+        <terms:title>Line Defect Ontology</terms:title>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/OCDO/ldo</rdfs:seeAlso>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
-        <schema:citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abril Azocar Guzman. (2025). Line Defect Ontology. </schema:citation>
-        <schema:creativeWorkStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-release</schema:creativeWorkStatus>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+        <schema:citation>Abril Azocar Guzman and Stefan Sandfeld. (2025). Line Defect Ontology.</schema:citation>
+        <schema:creativeWorkStatus>Pre-release</schema:creativeWorkStatus>
         <schema:funder rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/05qj6w324</schema:funder>
         <schema:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/OCDO/.github/refs/heads/main/profile/ocdo_logo.png</schema:logo>
     </owl:Ontology>
@@ -309,7 +309,7 @@
     <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cmso/hasComponent_x">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/Vector"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property linking a vector with its component on the x axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property linking a vector with its component on the x axis.</obo:IAO_0000115>
         <rdfs:label>has component x</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -320,7 +320,7 @@
     <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cmso/hasComponent_y">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/Vector"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property linking a vector with its component on the y axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property linking a vector with its component on the y axis.</obo:IAO_0000115>
         <rdfs:label>has component y</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -331,7 +331,7 @@
     <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cmso/hasComponent_z">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/Vector"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property linking a vector with its component on the z axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property linking a vector with its component on the z axis.</obo:IAO_0000115>
         <rdfs:label>has component z</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -398,7 +398,7 @@
     <!-- http://purls.helmholtz-metadaten.de/cdos/ldo/DislocationClimb -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/DislocationClimb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dislocation Climb</rdfs:label>
+        <rdfs:label>Dislocation Climb</rdfs:label>
     </owl:Class>
     
 
@@ -406,7 +406,7 @@
     <!-- http://purls.helmholtz-metadaten.de/cdos/ldo/DislocationGlide -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/DislocationGlide">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dislocation Glide</rdfs:label>
+        <rdfs:label>Dislocation Glide</rdfs:label>
     </owl:Class>
     
 
@@ -424,7 +424,7 @@
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/GeometricallyNecessaryDislocations">
         <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/Dislocation"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geometrically Necessary Dislocations</rdfs:label>
+        <rdfs:label>Geometrically Necessary Dislocations</rdfs:label>
     </owl:Class>
     
 
@@ -433,7 +433,7 @@
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/GlissileDislocation">
         <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/Dislocation"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glissile Dislocation</rdfs:label>
+        <rdfs:label>Glissile Dislocation</rdfs:label>
     </owl:Class>
     
 
@@ -449,7 +449,7 @@
     <!-- http://purls.helmholtz-metadaten.de/cdos/ldo/LineDefect -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/LineDefect">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear or one-dimensional defect around which some of the atoms are misaligned.</obo:IAO_0000115>
+        <obo:IAO_0000115>Linear or one-dimensional defect around which some of the atoms are misaligned.</obo:IAO_0000115>
         <rdfs:label>Line Defect</rdfs:label>
     </owl:Class>
     
@@ -469,7 +469,7 @@
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/Lomer-CottrellDislocation">
         <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/SessileDislocation"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lomer-Cottrell Dislocation</rdfs:label>
+        <rdfs:label>Lomer-Cottrell Dislocation</rdfs:label>
     </owl:Class>
     
 
@@ -515,7 +515,7 @@
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/SessileDislocation">
         <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/Dislocation"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sessile Dislocation</rdfs:label>
+        <rdfs:label>Sessile Dislocation</rdfs:label>
     </owl:Class>
     
 
@@ -558,7 +558,7 @@
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/Stair-rodDislocation">
         <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/SessileDislocation"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stair-rod Dislocation</rdfs:label>
+        <rdfs:label>Stair-rod Dislocation</rdfs:label>
     </owl:Class>
     
 
@@ -567,7 +567,7 @@
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/ldo/StatisticallyStoredDislocations">
         <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/ldo/Dislocation"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistically Stored Dislocations</rdfs:label>
+        <rdfs:label>Statistically Stored Dislocations</rdfs:label>
     </owl:Class>
     
 
@@ -593,7 +593,7 @@
     <!-- http://purls.helmholtz-metadaten.de/cmso/Angle -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cmso/Angle">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An angle is a measure of the the space (usually in degrees) between two intersecting lines at the point where they meet or vertex.</obo:IAO_0000115>
+        <obo:IAO_0000115>An angle is a measure of the the space (usually in degrees) between two intersecting lines at the point where they meet or vertex.</obo:IAO_0000115>
         <rdfs:label>Angle</rdfs:label>
     </owl:Class>
     
@@ -602,12 +602,12 @@
     <!-- http://purls.helmholtz-metadaten.de/cmso/Vector -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cmso/Vector">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vector is a quantity that has a magnitude and direction.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vector is a quantity that has a magnitude and direction.</obo:IAO_0000115>
         <rdfs:label>Vector</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
